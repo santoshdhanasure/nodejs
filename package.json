@@ -2,7 +2,11 @@
     "name": "NodejsExamples",
     "version": "0.1.0",
     "description": "NodejsExamples",
+    
     "main": "index.js",
+    "devDependencies" : {
+      "forever": "0.15.3"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1",
         "start": "forever start index.js",
