@@ -10,7 +10,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1",
         "start": "forever start index.js",
-        "stop": "forever stopall"
+        "stop": "forever stop index.js"
     },
     "repository": "",
     "keywords": [
