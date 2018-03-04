@@ -4,13 +4,13 @@
     "description": "NodejsExamples",
     
     "main": "index.js",
-    "devDependencies" : {
+    "dependencies" : {
       "forever": "0.15.3"
     },
     "scripts": {
         "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1",
-        "start": "forever start --uid 'demo' index.js",
-        "stop": "forever stop demo"
+        "start": "forever start index.js",
+        "stop": "forever stopall"
     },
     "repository": "",
     "keywords": [
